@@ -1,7 +1,7 @@
 {
   "name": "project-game",
   "version": "0.1.0",
-  "homepage": "https://andry359.github.io/game-interface",
+  "homepage": "https://andry359.github.io/game_interface",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
