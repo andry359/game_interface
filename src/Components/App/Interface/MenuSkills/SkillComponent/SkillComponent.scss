@@ -1,0 +1,107 @@
+.skillComponent__wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(156, 75, 75);
+    padding: 10px;
+    display: contents;
+    .skillComponent__content {
+        width: 100%;
+        height: 120px;
+        border-radius: 20px;
+        background-color: rgb(112, 92, 92);
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 7px 15px;
+        margin: 0px 0px 15px 0px;
+        box-sizing: border-box;
+        .content__skills {
+            width: 370px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            .content__skills-status {
+                width: 200px;
+                height: 35px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span {
+                    color:  black;
+                    text-align: center;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                }
+            }
+            .content__skills-info {
+                width: 100%;
+                max-height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+                .name {
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    color:  black;
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    padding: 0px 12px;
+                }
+                .points {
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-start;
+                    color:  rgb(155, 170, 70);
+                    text-align: center;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                    padding: 0px 12px;
+                }
+            }
+        }
+        .content__button {
+            width: 300px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button {
+                cursor: pointer;
+                width: 160px;
+                height: 45px;
+                border-radius: 30px;
+                background-color: rgb(59, 78, 129);
+                border: 0.3px solid rgb(31, 46, 88);
+                color:  black;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 25px;
+                letter-spacing: 0em;
+                &:hover {
+                    background-color: rgb(64, 85, 143);
+                    border: 0.3px solid rgb(32, 61, 141);
+                    color:  rgb(39, 36, 36);
+                }
+            }
+        }
+    }
+}

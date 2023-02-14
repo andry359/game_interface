@@ -1,0 +1,111 @@
+.main-content {
+    width: 700px;
+    height: 300px;
+    background-color: rgb(109, 58, 58);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    .main-content__text {
+        padding: 25px;
+        p {
+            color:  black;
+            text-align: center;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+        }
+    }
+    .main-content__buttons {
+        width: 100%;
+        height: 100%;
+        padding: 0px 25px;
+        margin: 5px 0px 25px 0px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        .main-content__button-old {
+            width: 250px;
+            height: 150px;
+            background-color: rgb(177, 19, 19);
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 7px;
+            cursor: pointer;
+            .old__character {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                .old__character-icon {
+                    width: 47%;
+                    height: 100%;
+                    padding: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .old__character-name {
+                    width: 47%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h3 {
+                        color:  black;
+                        text-align: center;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 25px;
+                        letter-spacing: 0.03em;
+                    }
+                }
+            }
+            .main-content__button-title {
+                width: 100%;
+                height: 60px;
+                h4 {
+                    color:  black;
+                    text-align: center;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                }
+            }
+            &:hover {
+                background-color: rgb(156, 42, 42);
+            }
+        }
+        .main-content__button-new {
+            button {
+                width: 250px;
+                height: 65px;
+                border-radius: 30px;
+                background-color: rgb(177, 19, 19);
+                color:  black;
+                text-align: center;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 25px;
+                letter-spacing: 0em;
+                cursor: pointer;
+                &:hover {
+                    background-color: rgb(156, 42, 42);
+                }
+            }
+        }
+    }
+}

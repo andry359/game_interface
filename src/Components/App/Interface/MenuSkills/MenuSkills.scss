@@ -1,0 +1,37 @@
+.optionsSkills {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    .skills__title {
+        width: 100%;
+        height: 25px;
+    }
+    .skills__content {
+        width: 100%;
+        height: 100%;
+        margin: 15px 0px;
+        overflow-y: scroll;
+        &::-webkit-scrollbar {
+            width: 0px;
+            background: transparent; 
+        }
+    }
+    .forward {
+        width: 100%;
+        height: 30px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        .arrow {
+            cursor: pointer;
+            transform: scale(-1, 1);
+            &:hover {
+                fill: rgb(112, 92, 92);
+            }
+        }
+    }
+}

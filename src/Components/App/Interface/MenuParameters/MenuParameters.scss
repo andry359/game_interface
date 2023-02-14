@@ -1,0 +1,119 @@
+.optionsMenu {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .mainParameters {
+        width: 100%;
+        height: 470px;
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .character {
+            width: 47%;
+            max-height: 100%;
+            background-color: rgb(112, 92, 92);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 20px;
+        }
+        .options {
+            width: 47%;
+            max-height: 100%;
+            background-color: rgb(112, 92, 92);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            border-radius: 20px;
+            padding: 15px 0px;
+            .options__statPoints {
+                width: 100%;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span {
+                    display: block;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: rgb(61, 87, 158);
+                    border: 0.3px solid rgb(30, 50, 105);
+                    text-align: center;
+                    line-height: 60px;
+                    color:  black;
+                    text-align: center;
+                    font-size: 23px;
+                    font-style: normal;
+                    font-weight: 600;
+                    letter-spacing: 0em;
+                }
+            }
+            .options__basicParameters {
+                width: 100%;
+                height: 365px;
+                padding: 19px 9px;
+                box-sizing: border-box;
+                .title {
+                    width: 100%;
+                    height: 30px;
+                    color:  black;
+                    text-align: center;
+                    font-size: 23px;
+                    font-style: normal;
+                    font-weight: 600;
+                    line-height: 25px;
+                    letter-spacing: 0em;
+                }
+                .parameters {
+                    width: 100%;
+                    max-height: 100%;
+                    overflow: scroll;
+                    box-sizing: border-box;
+                    overflow-x: hidden;
+                    &::-webkit-scrollbar {
+                        width: 0px;
+                        background: transparent; 
+                    }
+                }    
+            }
+        }
+    }
+    .minorParameters {
+        width: 100%;
+        height: 230px;
+        background-color: rgb(112, 92, 92);
+        padding: 15px;
+        border-radius: 20px;
+        .title {
+            width: 100%;
+            height: 30px;
+            color:  black;
+            text-align: center;
+            font-size: 23px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 25px;
+            letter-spacing: 0em;
+        }
+    }
+    .forward {
+        width: 100%;
+        height: 30px;
+        padding: 0 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        .arrow {
+            cursor: pointer;
+            &:hover {
+                fill: rgb(112, 92, 92);
+            }
+        }
+    }
+}
