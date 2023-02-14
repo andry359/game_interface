@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/game_interface/static/css/main.f8294553.css",
+    "main.js": "/game_interface/static/js/main.ec3b7ea3.js",
+    "static/media/male.svg": "/game_interface/static/media/male.9dc76c4a3d35c207a334fc59eb1963ff.svg",
+    "static/media/woman.svg": "/game_interface/static/media/woman.89e2375c4c8c68b10e728b3d3e0ce574.svg",
+    "static/media/arrow.svg": "/game_interface/static/media/arrow.025af7e23b954d48d266859002e39fbb.svg",
+    "index.html": "/game_interface/index.html",
+    "main.f8294553.css.map": "/game_interface/static/css/main.f8294553.css.map",
+    "main.ec3b7ea3.js.map": "/game_interface/static/js/main.ec3b7ea3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f8294553.css",
+    "static/js/main.ec3b7ea3.js"
+  ]
+}
